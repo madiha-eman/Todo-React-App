@@ -12,7 +12,7 @@
    }
 
    
-   .todo-app {
+   /* .todo-app {
      display: flex;
      flex-direction: column;
      justify-content: start;
@@ -23,7 +23,7 @@
      margin: 128px auto;
      border-radius: 10px;
      padding-bottom: 32px;
-   } 
+   }  */
    
    h1 {
      text-align: center;
