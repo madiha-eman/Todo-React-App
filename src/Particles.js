@@ -1,14 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Particles from 'react-particles-js';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <Particles
+const Particles = () => {
+    return (
+        <div>
+            <Particles
     params={{
 	    "particles": {
 	        "number": {
@@ -18,7 +13,7 @@ ReactDOM.render(
 	            }
 	        },
 	        "size": {
-	            "value": 5,
+	            "value": 10,
 	            "random": true
 	        },
 	        "move": {
@@ -38,16 +33,13 @@ ReactDOM.render(
 	        },
 	        "modes": {
 	            "remove": {
-	                "particles_nb": 5
+	                "particles_nb": 10
 	            }
 	        }
 	    }
 	}} />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+        </div>
+    )
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+export default Particles
